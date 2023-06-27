@@ -199,12 +199,12 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/cli@1.0.0-beta.127":
-  version "1.0.0-beta.127"
-  resolved "https://registry.yarnpkg.com/@redocly/cli/-/cli-1.0.0-beta.127.tgz#6ff47c080158802c42f863b18ebeac79df846aed"
-  integrity sha512-wlpziCMSLJef/Pmk9wjPSAcuE0KoY1W+QubjLMBmxpVE6Vy7+a80ksTXMRyX1nRBDA9S2+XBA/AcASo4l40U6Q==
+"@redocly/cli@1.0.0-beta.129":
+  version "1.0.0-beta.129"
+  resolved "https://registry.yarnpkg.com/@redocly/cli/-/cli-1.0.0-beta.129.tgz#ec9177886206c02a080b5f3fd27e6b175c55c47f"
+  integrity sha512-FMBELn58I1qgOuqVP97XrSCJfChf5kJ6WXjjW/IWfCVd3K4pwwowG1I4FzlxJZXJsGM+79mA/9VQlmJaTamGtg==
   dependencies:
-    "@redocly/openapi-core" "1.0.0-beta.127"
+    "@redocly/openapi-core" "1.0.0-beta.129"
     assert-node-version "^1.0.3"
     chokidar "^3.5.1"
     colorette "^1.2.0"
@@ -216,31 +216,15 @@
     react "^17.0.1"
     react-dom "^17.0.1"
     redoc "~2.0.0"
-    semver "^7.5.1"
+    semver "^7.5.2"
     simple-websocket "^9.0.0"
     styled-components "5.3.3"
     yargs "17.0.1"
 
-"@redocly/openapi-core@1.0.0-beta.127":
-  version "1.0.0-beta.127"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.127.tgz#e2a926ca4de2b9f8801545a86c44c71901736c59"
-  integrity sha512-zDWyQt8azIP66AHmlh6Sz9B59h4DXMVJVHOe+j3s6lzu1P1Hkl4kTFHDH4E9O2uq2S+pEiJHh8hLFNVPW4Xtvw==
-  dependencies:
-    "@redocly/ajv" "^8.11.0"
-    "@types/node" "^14.11.8"
-    colorette "^1.2.0"
-    js-levenshtein "^1.1.6"
-    js-yaml "^4.1.0"
-    lodash.isequal "^4.5.0"
-    minimatch "^5.0.1"
-    node-fetch "^2.6.1"
-    pluralize "^8.0.0"
-    yaml-ast-parser "0.0.43"
-
-"@redocly/openapi-core@^1.0.0-beta.104":
-  version "1.0.0-beta.128"
-  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.128.tgz#097092d3cf0841c83bd7e12ff2091d7955b3b7d7"
-  integrity sha512-3tubjnSOuC/1QQ8NnOFMTudA4pwbWnVJXB64JYNgiE99cTQS+90wehvQiV71XHQMC9/+rPvt4Ft7GXw75hFoNQ==
+"@redocly/openapi-core@1.0.0-beta.129", "@redocly/openapi-core@^1.0.0-beta.104":
+  version "1.0.0-beta.129"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.129.tgz#e3f7a0645d6edc84100e12268a2bb80899c5acd8"
+  integrity sha512-Oe+JVY6b7nb1p9KKWW0uJ7dCR7eHEZiyTcvru21chC6RyHFJyN/schYWxKFffFK0wc6jUDWqIdVktsPeiN0Kuw==
   dependencies:
     "@redocly/ajv" "^8.11.0"
     "@types/node" "^14.11.8"
@@ -1091,10 +1075,10 @@ semver@^5.0.3:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
-semver@^7.5.1:
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.1.tgz#c90c4d631cf74720e46b21c1d37ea07edfab91ec"
-  integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
+semver@^7.5.2:
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.3.tgz#161ce8c2c6b4b3bdca6caadc9fa3317a4c4fe88e"
+  integrity sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==
   dependencies:
     lru-cache "^6.0.0"
 
